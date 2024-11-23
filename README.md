@@ -20,7 +20,7 @@ This is a tribute webpage dedicated to Edward Snowden, built using HTML and CSS 
 
 ## Demo
 
-You can check the live demo of the project [here](https://rabumaabraham.github.io/Quiz-App/) 
+You can check the live demo of the project [here](https://rabumaabraham.github.io/OIBSIP-LEVEL2-TASK2/) 
 ## Technologies Used
 
 - HTML: Markup for the structure and layout of the calculator.
@@ -52,4 +52,5 @@ You can check the live demo of the project [here](https://rabumaabraham.github.i
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/575c582a-ae6a-4b19-9dad-02dd69b14cb0)
+![image](https://github.com/user-attachments/assets/c305f9d3-dcdd-42e6-be3e-0412e3e76ca1)
+

@@ -1,0 +1,184 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #2a3d5c;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Who is Edward Snowden Section */
+#who-is {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#who-is .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#who-is .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#who-is .text h2 {
+    font-size: 2.5rem;
+    color: #2a3d5c;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#who-is .text p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+#who-is .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#who-is .image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Key Accomplishments Section */
+#accomplishments {
+    background-color: #f2f7f9;
+    padding: 60px 20px;
+}
+
+#accomplishments h2 {
+    font-size: 2.5rem;
+    color: #2a3d5c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accomplishment-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accomplishment-icon {
+    font-size: 2rem;
+    color: #2a3d5c;
+    margin-right: 20px;
+}
+
+#accomplishments p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Legacy Section */
+#legacy {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+#legacy h2 {
+    font-size: 2.5rem;
+    color: #2a3d5c;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#legacy p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2a3d5c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #who-is .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #who-is .image img {
+        max-width: 80%;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #accomplishments h2, #legacy h2 {
+        font-size: 1.8rem;
+    }
+
+    #accomplishments ul {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    #accomplishments li {
+        font-size: 1.1rem;
+    }
+}
+
+#footer{
+    color: rgb(23, 208, 196);
+}
+
+#footer:visited{
+    color: aqua;
+}

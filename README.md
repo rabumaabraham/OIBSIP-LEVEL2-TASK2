@@ -2,8 +2,6 @@
 
 This is a tribute webpage dedicated to Edward Snowden, built using HTML and CSS during my web development and design internship at Oasis Infobyte. The project explores Snowden’s life, accomplishments, and legacy, providing an informative overview of his impact on global surveillance and digital privacy.
 
-Table of Contents
-
 ## Table of Contents
 
 - [Features](#features)
